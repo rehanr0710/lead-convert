@@ -27,6 +27,7 @@
     "@tiptap/extension-paragraph": "^2.4.0",
     "@tiptap/extension-text": "^2.4.0",
     "@tiptap/react": "^2.4.0",
+    "@uploadthing/react": "^6.6.0",
     "ai": "^3.1.14",
     "axios": "^1.7.2",
     "class-variance-authority": "^0.7.0",
