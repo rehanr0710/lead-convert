@@ -19,7 +19,7 @@ export function LeadMagnetProfileEditor() {
                 "bg-purple-500 focus-within:ring-purple-500 after:bg-purple-500",
             }}
             endpoint="imageUploader"
-            onClientUploadComplete={(res) => {
+            onClientUploadComplete={(res: any) => {
               // Do something with the response
               console.log("Files: ", res);
               if (res && (res?.length ?? 0) > 0) {
