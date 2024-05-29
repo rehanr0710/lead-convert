@@ -3,7 +3,7 @@ import { twMerge } from "tailwind-merge";
 import slugify from "slugify";
 
 export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs))
+  return twMerge(clsx(inputs));
 }
 
 export function slugifyLeadMagnet(title: string) {
